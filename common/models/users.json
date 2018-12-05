@@ -1,0 +1,55 @@
+{
+  "name": "users",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id":{
+      "type":"Number",
+      "id":true,
+      "description": "User ID"
+    },
+    "First_name": {
+      "type": "string",
+      "required": true
+    },
+    "Last_name": {
+      "type": "string",
+      "required": true
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "age": {
+      "type": "number",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "zip": {
+      "type": "number",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "web": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
