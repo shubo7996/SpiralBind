@@ -36,3 +36,13 @@ To run the server-
 To run mongoDB-
   
   mongo
+  
+In order to run the Application, go to the SpiralBind directory and type-
+
+  node .
+
+Screenshots Of the Swagger Api and Link Querries-
+
+https://drive.google.com/open?id=1q6db3vd0GEpcVxS7zFvqO98cRZ4PJBM7
+
+
